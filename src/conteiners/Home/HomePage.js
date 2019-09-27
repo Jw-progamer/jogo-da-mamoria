@@ -1,8 +1,14 @@
 import React from 'react'
 
+import { Dashboard, DashboardMenu, DashboardButton } from "../../components"
+
 function HomePage() {
     return (
-        <h1>Olá mundo</h1>
+        <Dashboard>
+            <DashboardMenu title="Jogo das trevas">
+                <DashboardButton> Now, is game time</DashboardButton>
+            </DashboardMenu>
+        </Dashboard>
     );
 }
 
